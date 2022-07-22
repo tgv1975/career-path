@@ -1,0 +1,29 @@
+.computer-science h1 span {
+	position: relative;
+}
+
+.computer-science .felix {
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem auto;
+}
+
+.computer-science .felix img {
+	max-width: 100%;
+}
+
+.computer-science .felix > div {
+	position: relative;
+	display: flex;
+	height: auto;
+}
+
+.computer-science .felix > div::before {
+	content: 'X';
+	position: absolute;
+	top: 15%;
+	left: 45%;
+	font-size: 15rem;
+	color: red;
+	animation: pulse 1s 1s ease-in-out infinite both;
+}

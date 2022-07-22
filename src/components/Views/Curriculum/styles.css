@@ -1,0 +1,17 @@
+.curriculum div img {
+	max-width: 300px;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.curriculum .extras {
+	display: flex;
+}
+
+.curriculum .interlude {
+	display: flex;
+}
+
+.curriculum .interlude img {
+	max-width: 100%;
+}

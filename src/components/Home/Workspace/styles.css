@@ -1,0 +1,32 @@
+.workspace {
+	flex-grow: 1;
+	height: 100%;
+	text-align: center;
+}
+
+.workspace > .MuiPaper-root {
+	box-sizing: border-box;
+	height: 100%;
+	padding: 2rem;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+.workspace img {
+	max-width: 60%;
+}
+
+.workspace figure {
+	max-width: 60%;
+	margin: 1rem auto;
+	padding: 2rem;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+}
+
+.workspace legend {
+	padding-top: 1.5rem;
+	font-size: 1.33rem;
+	background-color: #eee;
+}

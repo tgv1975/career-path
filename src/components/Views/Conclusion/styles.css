@@ -1,0 +1,5 @@
+.conclusion .question {
+	margin-top: 3rem;
+	font-size: 5rem;
+	animation: pulse 1s 1s ease-in-out infinite;
+}

@@ -1,0 +1,9 @@
+.beginnings .start {
+	width: 15rem;
+	margin: auto;
+	background: crimson;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 5px;
+	animation: pulse 1s 1s ease-in-out infinite both;
+}

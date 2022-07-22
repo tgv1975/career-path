@@ -1,13 +1,70 @@
+html {
+	height: 100%;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root {
+	height: 100%;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.info {
+	color: royalblue;
+}
+
+.info::after {
+	position: absolute;
+	content: '🛈';
+	opacity: 0.5;
+	margin-top: -0.5rem;
+	font-weight: 100;
+}
+
+/* Works on Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #ddd white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 8px;
+	opacity: 0.1;
+}
+
+*::-webkit-scrollbar-track {
+	background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ddd;
+	border-radius: 20px;
+	border: 3px solid #ddd;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+	}
 }

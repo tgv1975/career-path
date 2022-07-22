@@ -1,0 +1,22 @@
+.games .start {
+	font-family: 'Common Pixel', sans-serif;
+}
+
+.games .old-computers {
+	display: flex;
+	justify-content: center;
+}
+
+.games .old-computers > div {
+	display: flex;
+	width: 50%;
+	height: auto;
+}
+
+.games .old-computers > div figure {
+	max-width: 90%;
+}
+
+.games .old-computers > div figure img {
+	max-width: 100%;
+}

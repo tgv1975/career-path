@@ -1,0 +1,7 @@
+.roots .companies {
+	display: flex;
+}
+
+.roots .companies ul {
+	text-align: left;
+}

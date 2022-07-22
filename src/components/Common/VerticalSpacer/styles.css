@@ -1,0 +1,14 @@
+.vertical-spacer {
+	width: 4rem;
+	margin: auto;
+	padding: 2rem 0;
+	background-color: orange;
+	text-align: center;
+	background: url('./../../../assets/images/road-texture.jpg') top left repeat-y;
+	background-size: contain;
+}
+
+.vertical-spacer .char {
+	font-size: 2rem;
+	margin-left: 3rem;
+}
