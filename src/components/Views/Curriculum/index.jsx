@@ -10,7 +10,7 @@ export const Curriculum = () => {
 				<img src="assets/images/assembler.jpg" alt="Assembler" />
 				<img src="assets/images/dos.jpg" alt="MS DOS" />
 				<img src="assets/images/pascal.jpg" alt="Turbo Pascal" />
-				<img src="assets/images/c++.jpg" alt="Turbo C++" />
+				<img src="assets/images/cpp.jpg" alt="Turbo C++" />
 				<img src="assets/images/dbase.jpg" alt="dBase" />
 				<img src="assets/images/foxpro.webp" alt="FoxPro" />
 			</div>
